@@ -3,7 +3,7 @@ import smtplib
 E_MAIL = "YOUR_MAIL"
 PASSWORD = "YOUR_PASSWORD"
 
-# Subject: if you write subject, it will not consider as spam otherwise it will.
+# Subject: if you write subject, it will not consider as spam.
 
 with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.starttls()
